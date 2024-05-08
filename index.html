@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+ <nav id="desktop-nav">
+    <div class="logo">Ange Daniel Akele</div>
+    <div>
+        <ul class="nav-links">
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+ </nav>
+<nav id="hamburger-nav">
+   <div class="logo"> Akele Ange Daniel</div>
+   <div class="hamburger-menu">
+   <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+   <div class="menu-links">
+    <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+            <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+   </div>
+   </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container" >
+        <img src="./assets/IMG_2348 2.HEIC" alt="Ange Daniel Akele profile picture " >
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ange Daniel Akele</h1>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+
+            <button class="btn btn-color-2" onclick="window.open('./assets/Ange Daniel_Akele_resume.pdf')"
+            >Download CV</button>
+
+            <button class="btn btn-color-1" onclick="location.href='./#contact'"
+            >Contact Info</button>
+        </div>
+    <div id="socials-container">
+        <img 
+        src="./assets/linkedin.png" alt="My linkedin profile"
+        class="icon" 
+        onclick="location.href='https://www.linkedin.com/in/ange-daniel-akele-918b152b8'"
+        />
+        <img 
+        src="./assets/github.png" alt="My Github profile"
+        class="icon" 
+        onclick="location.href='https://github.com/Aad77'"
+        />
+    </div>
+</section>
+ <section id="About">
+    <p classe=" section__text__p1"> Get To know more</p>
+    <h1 class="title">About Me</h1>
+    <div class=" section-container">
+        <div class="section__pic-container">
+            <img 
+            src="./assets/IMG_2439.JPG" 
+            alt="profile picture"
+            class="about-pic"
+            />
+        </div>
+        <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <img 
+                src="./assets/experience.png" 
+                alt="Experience icon"
+                class="icon"
+                />
+                <h3>Experience</h3>
+                <p>intern <br/> Software Engineering</p>
+        </div>
+        <div class="details-container">
+            <img 
+            src="./assets/education.png" 
+            alt="Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc Bachelors Degree <br /> Computer Science</p>
+        </div>
+    </div>
+    <div class="text-container">
+        <p>I am a passionate computer science student currently pursuing my studies at University of Quebec in Outaouais. I am particularly interested in software development.
+            Throughout my studies, I have built a strong foundation in programming languages such as Java, Python, and C++, along with a deep understanding of fundamental computer science concepts. My academic journey has also allowed me to explore areas such as databases, computer networks, and web development.
+            I am constantly seeking new opportunities to apply my skills and gain professional experience in the field of computer science.
+            Outside of my studies, I am passionate about continuous learning and staying updated on the latest technological advancements.
+            I am excited about the prospect of contributing to stimulating projects and collaborating with industry professionals to tackle new challenges.
+        </p>
+    </div>
+ </div>
+    </div>
+    <img 
+    src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+</section>
+<section id="Experience">
+    <p class="section__text__p1">Explore my</p>
+    <h1 class="title"> Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title"> Sotfware Engineering intern</h2>
+            <div class="article-container">
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>JAVA</h3>
+                          <p>Intermediate</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>PYTHON</h3>
+                          <p>Beginner</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>C++</h3>
+                          <p>Advanced Beginner</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>JAVAScript</h3>
+                          <p>Beginner</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>HTML</h3>
+                          <p>Beginner</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>CSS</h3>
+                          <p>Beginner</p>
+                        </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                        <div>
+                          <h3>Swift</h3>
+                          <p>Advanced beginner</p>
+                        </div>
+                </article>
+        </div>
+        </div>
+    </div>
+     </div>
+     <img 
+    src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+    />
+</section>
+<section id="projects">
+<p class="section__text__p1">Browse my recent</p>
+<h1 class="title">Projects</h1>
+<div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+        <div class="article-container">
+            <img 
+            src="./assets/Apple-Weather-app.jpg" 
+            alt="Weather app"
+            class="project-img"
+            />
+        </div>
+        <h2 class="experience-sub-title  project-title">Project One</h2>
+        <div class="btn-container">
+         <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/Aad77'">
+            Github
+        </button>
+        <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/Aad77'">
+            Live Demo
+        </button>
+        </div>
+        <div>
+        </div>
+        
+</div>
+<div class="details-container color-container">
+    <div class="article-container">
+        <img 
+        src="./assets/Python games.jpeg" 
+        alt="Python games"
+        class="project-img"
+        />
+    </div>
+    <h2 class="experience-sub-title  project-title">Project Two</h2>
+    <div class="btn-container">
+     <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/Aad77'">
+        Github
+    </button>
+    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/Aad77'">
+        Live Demo
+    </button>
+    </div>
+</div>
+</div>
+</div>
+<img 
+src="./assets/arrow.png" 
+alt="arrow icon"
+class="icon arrow"
+onclick="location.href='#projects'"
+/>
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img 
+        src="/assets/email.png" 
+        alt=" Email icon" 
+        class="icon contact-icon email-icon"
+        />
+        <p a href="mailto:angeakele@gmail.com">angeakele@gmail.com</a</p>
+      </div>
+    </div>
+    <div class="contact-info-container">
+        <img src="/assets/linkedin.png" 
+        alt=" Linkedin icon" 
+        class="icon contact-icon"
+        />
+        <p a href="https://www.linkedin.com/in/ange-daniel-akele-918b152b8">Linkedin</a</p>
+      </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 John Doe. All rights reserved.</p>
+</footer>
+</section>
+  <script src="script.js">
+</script>  
+</body>
+</html>
